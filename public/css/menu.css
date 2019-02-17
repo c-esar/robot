@@ -1,0 +1,179 @@
+<style>
+/*   menu pequeño */
+
+input#abrir-cerrar {
+	position: absolute;
+	top: -9999px;
+}
+label[for="abrir-cerrar"] {
+	cursor:pointer;
+	padding: 1rem;
+	background-color: black;
+	color:crimson;
+	display:inline-block;
+	width:100%;
+}
+.cerrar {
+	display:none;
+}
+
+#sidebar {
+	width:0;
+}
+
+#contenido {
+	margin-left:0;
+}
+
+input#abrir-cerrar:checked ~ #sidebar{
+	width:200px;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido{
+	margin-left:200px;
+	transition: margin-left .4s;
+}
+
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
+	display:inline;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
+	display:none;
+}
+
+.sidebar {
+	position: fixed;
+	height: 100%;
+	width: 0;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: black;
+	overflow-x: hidden;
+	transition: 0.4s;
+	padding: 1rem 0;
+	box-sizing:border-box;
+}
+
+
+.sidebar .boton-cerrar {
+	position: absolute;
+	top: 0.5rem;
+	right: 1rem;
+	font-size: 2rem;
+	display: block;
+	padding: 0;
+	line-height: 1.5rem;
+	margin: 0;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+	margin:0;
+	padding:0;
+}
+
+.sidebar ul {
+	margin: 30px auto;
+	display: block;
+	width: 80%;
+	min-width:200px;
+}
+
+.sidebar a {
+	display: table-cell;
+	font-size: 130%;
+	color: #eee;
+	text-decoration: none;
+	padding: 10px 10px;
+}
+
+h1 {
+	color:#f90;
+	font-size:180%;
+	font-weight:normal;
+}
+
+#contenido {
+	transition: margin-left .4s;
+	padding: 1rem;
+}
+
+.abrir-cerrar {
+	color: #2E88C7;
+	font-size:1rem;   
+}
+
+#cerrar{
+	position: fixed;
+	display: -webkit-box;
+	width: 100%;
+}
+@media (min-width: 961px) {
+	#cerrar{
+		display: none;
+	}
+	.sidebar{
+		display: none;
+	}
+}
+
+.menu2  div.i-flecha{
+	float: right; margin-left: 100px;
+}
+.contenedor-menu .menu2 ul{
+	display: none;
+}
+.swiper-pagination-bullet-active{
+	background: red !important;
+}
+
+/*  fin menu pequeño */
+
+
+/*   menu */
+#redes-sociales{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	padding-left: 180px;
+}
+#redes-sociales img{
+	border-radius: 10px;
+	margin:10px;	
+}
+#redes-sociales img:hover , .redes-pequeñas img:hover{
+	background-color: #ffce25 ;
+}
+#ubicacion{
+	margin-left: 50px !important;
+	margin: 10px;
+}
+#ubicacion span:hover, #ubicacion img:hover, #ubicacion a:hover{
+	color: black !important;
+}
+#ubicacion img{
+	margin-top: -10px;
+}
+#ubicacion{
+	display: inline-block;
+	color: #ffce25; 
+}
+#redes-sociales{
+	display: inline-block;
+	margin-top: -5px;
+}
+
+
+/*   fin menu  */
+
+
+
+
+</style> 

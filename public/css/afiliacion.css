@@ -1,0 +1,117 @@
+	<style>
+	
+	.alineacion {
+		display: inline-block;
+
+	}
+	#no-mostrar{
+		display: none;
+	}
+	.list-inline-dashed>li+li:before {
+    content: '/';
+    padding-right: 5px;
+	padding-left: 5px;
+}
+	.alineacion a:hover{
+		color: #e25d29;
+		text-decoration: none;
+		
+	}
+	.divider2 {
+		width: 70% !important;
+		height: 2px;
+		padding: 0;
+		margin: 27px auto 34px;
+		background: black;
+		border: none;
+	}
+	.texto{
+		font-weight: 400;
+	}
+	.list-separated li + li {
+		border-top: 1px solid #f5f5f5;
+		margin-top: 8px;
+		padding-top: 7px;
+	}
+	.list-unstyled {
+		padding-left: 0;
+		list-style: none;
+	}
+	.box-planning {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		padding: 15%;
+	}
+	.text-gray{
+		color:#d9d9d9;
+	}
+	.btn-block {
+		display: block;
+		width: 100%;
+	}
+	.pricing-table-new-holder-tables-holder-special__content {
+		background-color: #ff4546;
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #fff;
+		border-radius: 3px;
+		padding: 6px 15px;
+		min-width: 215px;
+	}
+	.pricing-table-new-holder-tables-holder-special__content:after {
+		content: " ";
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 10px solid #ff4546;
+		position: absolute;
+		bottom: 99.3%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+	}
+	.bordes{
+		border: 2px solid;
+		border-radius: 20px;
+	}
+	
+	.box-planning-type-2.active {
+		box-shadow: 0 5px 23px 0 rgba(0, 0, 0, 0.30);
+	}
+	
+	.btn-final{
+		background-color: while;
+	}
+	.text-primary{
+		color: #ffce25;
+	}
+	.text{
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .centrado{
+		position: relative;
+		color: #fff;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+     .container-responsivo{
+     	margin: 5% auto;
+     }
+     h1{
+     	font-size: 50px !important;
+     }
+     .text-afi{
+     	font-size: 30px !important;
+     }
+     @media(max-width: 991px){
+     	#ajuste-afiliacion{
+     		margin:10% auto !important;
+     	}
+
+     }
+</style>

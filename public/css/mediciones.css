@@ -1,0 +1,299 @@
+<style>
+.logo{
+  background-image:  url(../public/images/logoToro6.png);
+  width: 20%; 
+  height: 120px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+}
+
+.page{
+  overflow: hidden;
+  background-color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+#header{
+  width:100%; 
+  display: flex;
+  /*  background: blue;*/
+  color: #fff;
+}
+#headercont{
+  transition: .6s all ease;
+  width: 38%;
+  margin: -1px;
+  height: 120px;
+
+  display: inline-block;
+  position: relative;
+}
+#headercont img{margin-top:20px; float:left  }
+.headerContenv{
+  transition: 1s all ease;
+  content: '';
+  position: absolute;
+  top: 0;
+  background: #D01919;
+  display: block;
+  width: 31%;
+  height: 40px;
+  float: right;
+  z-index: 2;
+}
+.headerContenv2{
+  transition: 1s all ease;
+  content: '';
+  position: absolute;
+  top: 0;
+  background: #D01919;
+  display: inline-block;
+  width: 31%;
+  height: 40px;
+  float: right;
+  z-index: 2;
+
+}
+#menu{
+  width:100%; 
+  height:100px; 
+  background: transparent;
+  padding-top:20px; 
+  text-align:center; 
+  min-width:900px;
+  margin: auto;
+}
+#menu a{
+  font-family:arial; 
+  color:white; 
+  text-decoration:none;
+  margin-left: 30px;
+  margin-right: 30px;
+} 
+
+@media  (max-width:991px){
+    .thumbnail .thumbnail2{
+        width: 300px;
+       
+    }
+}
+@media  (max-width:991px){
+   .ajuste-bienvenidos {
+        margin-top: 100px !important;
+       
+    }
+}
+
+@media (min-width:500px) and (max-width:991px){
+    #nuevo{
+        margin: 10px auto !important;
+        display: block;
+    }
+   
+}
+.color-baner{
+    color: #fff;
+}
+@media (min-width:1024px) and (min-height:768px){
+    #fdw nav ul li{
+        display: table-cell !important;
+        
+      }
+    
+    
+}
+@media (min-width:1024px) and (min-height:768px){
+  #fdw nav ul li{
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px)
+{
+ .anclaShell{
+  max-width: 1200px;
+} 
+}
+@media (max-width:599px){
+  .logo{
+    display: none;
+  }
+  #menu{
+    float: right !important;
+  }
+}
+@media (max-width:960px){
+  .w3-button{width:100%}
+  #menu{
+    width: 100%;
+    margin-left: 0px;
+    background: black;
+    position:fixed;   
+  }
+  .logo{
+    margin-top:-20px !important;
+  }
+
+}
+@media(max-width:600px){
+
+  .logo{
+    display: none;
+  } 
+  #fdw{
+    float: left;
+  }
+}
+@media (min-width:1600px)  and (max-width:1680px){
+  #ancla4 .container{
+    margin-left: 5% !important;
+  }
+}
+@media (min-width:1920px){
+  #ancla4 .container{
+    margin-left: 10% !important;
+  }
+  .navNemu{
+    margin-left: 10% !important;
+  }
+}
+@media (min-width:2560px){
+  #menu{
+    padding-top: 40px;
+  }          
+}
+@media (min-width:1920px){
+  #menu{
+    margin-left: -195px !important;
+  }            
+}
+@media (max-width:414px){
+  #navDemo{
+    margin-left: -50px !important;
+  }
+  .swiper-slide{
+
+    height: 300px !important;
+    margin-top: 68px !important;
+
+
+  }
+  .range{
+    margin-top: 150px !important;
+  }
+  #slider{
+    display: none;
+  }
+  footer .logo{
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+
+}
+@media (max-width:411px){
+  .range{
+    margin-top: 170px !important;
+  }  
+  .swiper-slide{
+
+    height: 500px !important;
+
+  }
+}
+@media(max-width:320px){
+  .swiper-container{
+    display: none;
+  }
+
+
+}
+@media (max-width:414px){
+  .range{
+    margin-top: 190px !important;
+  }
+
+}
+@media (min-width:321px){
+  #silder-nuevo{
+    display: none;
+  }                
+}
+@media (max-width:768px){
+  #slider{
+    display: none;
+  } 
+  .swiper-slide{
+    height: 500px !important;
+    margin-top:69px !important;
+  }
+  .fixed{
+    position: fixed;
+
+  }
+  footer .logo{
+    margin:0% !important;
+    margin-top: 0px !important;
+
+  }
+
+
+}
+.cambio{
+  text-align: -webkit-auto !important;                
+}
+
+@media (min-width: 0px) and (max-width: 960px){
+  #menu{
+    display: none !important;
+  }
+}
+@media (max-width: 768px){
+  .swiper-container{
+    margin: -65px auto !important;
+  }
+}
+.sitio{
+  color: #ffce25 !important;
+}
+.redes-pequeñas img{
+  margin-left: 10px;
+  border-radius: 10px;
+}
+@media  (max-width:500px){
+  #no-mostrar{
+    display: none;
+
+  }
+  #ancla4{
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1200px){
+ .container {
+  width: 100% !important;
+}
+}
+@media(max-width: 960px){
+    #headerL{
+        display: none;
+    }
+    #headercont{
+        display: none;
+    }
+    #headerR{
+        display: none;
+    }
+}
+    
+
+</style> 	
+
+
+   
+
+
+
+
+
